@@ -1,0 +1,156 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+}
+h1{
+    font-size: 5.65rem; /*or 5.65em or 562.5% , rem ignores all the parent font size.. or else in dynamic font size.. all the font sizes gets add up*/
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+   /* width: 10%;
+    margin: 0 auto;*/
+    color: #66BFBF;
+}
+h2{
+    font-weight: 999999999999999999999999999999999999999;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:  #11999E;
+}
+/*div{
+    background-color: #e1f4f3;
+}*/
+.top{
+    background-color: #e1f4f3;
+    position: relative;
+    padding: 100px 0;
+}
+.middle{
+    background-color: #f7d9d9;
+   /* border: solid 20px;
+    height: 200px;
+    width: 200px;
+    margin-left: 260px;*/
+}
+.bottom{
+    background-color: bisque;
+   /* border: solid 10px;
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;*/
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 30px;   
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.pfp{
+    border-radius: 60%;
+    height: 150px;
+}
+.kappa{
+    display:inline-block;
+}
+.skills{
+    background-color:#e1f4f3 ;
+}
+.skill-row{
+    width: 70%;
+    margin: auto;
+    text-align: left;   
+    
+}
+.sadlaugh {
+    float: left;
+    margin-right: 30px;
+}
+.miner{
+    float: right;
+    margin-left: 0;
+}
+ /* .code-skill-description{
+  clear:left; this means left margin is clear so that prevents wrapping around the image 
+}*/
+.kappa{
+    width: 70%;
+    margin: auto;
+}
+p{
+    line-height: 2; 
+}
+hr{
+    border: dotted #40514E 6px;
+    border-bottom: none;
+    width: 6%;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 27px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+.footer{
+    background-color:#e1f4f3;
+    padding: 20px 0 20px;
+ }
+a{
+    color: #383e56;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 999999999999999999999999999;
+ }
+a:hover{
+    color: #222831;
+}
+.copyright{
+    font-size: 0.75rem;
+}
+.blanket{
+    position: fixed;
+    left:0;
+    top:10px;
+}
